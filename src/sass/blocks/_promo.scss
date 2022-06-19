@@ -1,0 +1,49 @@
+.promo {
+    min-height: 700px;
+    background: url('../img/bg/promo-phone.webp') no-repeat 50%/cover;
+    padding-top: 35px;
+    width: 100%;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &_nav {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;     
+        width: 570px;
+        height: 26px;  
+        list-style-type: none;
+    }
+    &_link {
+        color: $white-color;
+        text-decoration: none;
+        &:hover {
+            color: $blue-color;
+        }
+    }
+    &__title {
+        width: 554px;
+        margin: 126px 0 0 0;
+        font-size: 42px;
+        line-height: 48px;
+    }
+    &__subtitle {
+        color: $white-color;
+        font-weight: 300;
+        margin-top: 12px;
+        span {
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+    }
+    &__btn {
+        margin-top: 50px;
+    }
+}
