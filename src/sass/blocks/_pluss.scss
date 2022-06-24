@@ -1,0 +1,49 @@
+.pluss {
+    min-height: 1140px;
+    margin: 40px 0;
+    &__title {
+        width: 401px;
+        font-size: 30px;
+        color: $text-color-light;
+        text-align: center;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 570px);
+        grid-template-rows: repeat(3, 355px);      
+        margin-top: 42px;  
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &_one {
+            background: url('../img/pluss/clock.webp') no-repeat 50%/cover;
+        }
+        &_two {
+            background: url('../img/pluss/intellect.webp') no-repeat 50%/cover;
+        }
+        &_three {
+            background: url('../img/pluss/possibility.webp') no-repeat 50%/cover;
+        }
+        &_four {
+            background: url('../img/pluss/programmer.webp') no-repeat 50%/cover;
+        }
+        &_five {
+            background: url('../img/pluss/alive.webp') no-repeat 50%/cover;
+        }
+        &_six {
+            background: url('../img/pluss/pay.webp') no-repeat 50%/cover;
+        }
+    }
+    &__text {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 156px;
+        text-align: center;
+        color: $white-color;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}

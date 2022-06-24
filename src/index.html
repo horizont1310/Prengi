@@ -43,6 +43,7 @@
     <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -102,23 +103,214 @@
                     <nav>
                         <ul class="promo_nav">
                             <li class="promo_item"><a href="#" class="promo_link">Главная</a></li>
-                            <li class="promo_item"><a href="#" class="promo_link">Модули</a></li>
-                            <li class="promo_item"><a href="#" class="promo_link">Отрасли</a></li>
-                            <li class="promo_item"><a href="#" class="promo_link">О нас</a></li>
-                            <li class="promo_item"><a href="#" class="promo_link">Наши обязательства</a></li>
+                            <li class="promo_item"><a href="#modul" class="promo_link">Модули</a></li>
+                            <li class="promo_item"><a href="#experts" class="promo_link">Отрасли</a></li>
+                            <li class="promo_item"><a href="#us" class="promo_link">О нас</a></li>
+                            <li class="promo_item"><a href="#plus" class="promo_link">Преимущества</a></li>
                         </ul>
                     </nav>
                 </div>
         
-                <div class="title promo__title">
-                    <h1>Управляй своим бизнесом через Smartphone</h1>
+                <div class="promo__text">
+                    <div class="title promo__title">
+                        <h1>Управляй своим бизнесом через Smartphone</h1>
+                    </div>
+                    <div class="promo__subtitle">
+                        <span>PRENGI</span> - Платформа для прозрачного управления бизнесом
+                    </div>
+                    <button class="btn promo__btn">Получить доступ</button>
                 </div>
-                <div class="promo__subtitle">
-                    <span>PRENGI</span> - Платформа для прозрачного управления бизнесом
-                </div>
-                <button class="btn promo__btn">Получить доступ</button>
             </div>
         </div>
     </section>
+
+    <section class="with" id="modul">
+        <div class="container">
+            <div class="with__wrapper">
+                <div class="with__item">
+                    <img src="icons/with/decision.webp" alt="decision">
+                    <div class="with__descr">Нет оперативности в принятии решений?</div>
+                </div>
+                <div class="with__item">
+                    <img src="icons/with/control.webp" alt="control">
+                    <div class="with__descr">Нет учета и контроля обслуживания?</div>
+                </div>
+                <div class="with__item">
+                    <img src="icons/with/data.webp" alt="data">
+                    <div class="with__descr">Сложно строить прогнозы и анализировать данные?</div>
+                </div>
+
+                <div class="with__center">
+                    <img src="icons/arrows.svg" class="with__center_img" alt="arrows">
+                    <div class="title with__center_title">С PRENGI</div>
+                </div>
+
+                <div class="with__item with__item_plus">
+                    <img src="icons/with/cost.webp" alt="cost">
+                    <div class="with__descr with__descr_plus">Нет оперативности в принятии решений?</div>
+                </div>
+                <div class="with__item with__item_plus">
+                    <img src="icons/with/online.webp" alt="online">
+                    <div class="with__descr with__descr_plus">Нет учета и контроля обслуживания?</div>
+                </div>
+                <div class="with__item with__item_plus">
+                    <img src="icons/with/equipment.webp" alt="equipment">
+                    <div class="with__descr with__descr_plus">Сложно строить прогнозы и анализировать данные?</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="expert" id="experts">
+        <div class="container">
+            <div class="expert__wrapper">
+                <h2 class="title expert__title">Prengi предоставляет экспертные решения для Вашей отрасли</h2>
+                <div class="expert__nav">
+                    <ul class="expert__tabs">
+                        <li class="expert__tab expert__tab_active"> <div><a href="#production">Prengi Production</a></div> </li>
+                        <li class="expert__tab expert__tab_before"> <div><a href="#fmc">Prengi FMC</a></div> </li>
+                        <li class="expert__tab expert__tab_before"><div> <a href="#retail">Prengi Mallz Retail</a> </div></li>
+                        <li class="expert__tab expert__tab_before"><div> <a href="#logistic">Prengi Logistic</a> </div></li>
+                        <li class="expert__tab expert__tab_before"><div><a href="#prengi-it">Prengi IT</a> </div></li>
+                        <li class="expert__tab expert__tab_before"><div><a href="#prengi-hr">Prengi HR</a></div></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="carousel">
+                <div class="container">
+                    <div class="carousel__inner">
+                        <div id="production"  class="carousel__img">
+                            <img src="img/slider/slid1.jpg" alt="macbook">
+                        </div>
+                        <div id="fmc"  class="carousel__img">
+                            <img src="img/slider/slid2.webp" alt="macbook">
+                        </div>
+                        <div id="retail"  class="carousel__img">
+                            <img src="img/slider/slid3.jpg" alt="macbook" class="carousel__img">
+                        </div>
+                        <div id="logistic" class="carousel__img">
+                            <img src="img/slider/slid4.jpg" alt="macbook">
+                        </div>
+                        <div id="prengi-it" class="carousel__img">
+                            <img src="img/slider/slid5.jpg" alt="macbook">
+                        </div>
+                        <div id="prengi-hr" class="carousel__img">
+                            <img src="img/slider/slid6.jpg" alt="macbook">
+                        </div>
+                    </div>
+                    <button type="button" class="prev"><img src="img/slider/left.svg" alt="prev"></button>
+                    <button type="button" class="next"><img src="img/slider/right.svg" alt="next"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pluss" id="plus">
+        <div class="container">
+            <h2 class="title pluss__title">Преимущества Prengi для Вашей отрасли</h2>
+            <div class="pluss__wrapper">
+                <div class="pluss__item pluss__item_one">
+                    <div class="pluss__text">Возможность внедрения и тестирования в реальном времени</div>
+                </div>
+                <div class="pluss__item pluss__item_two">
+                    <div class="pluss__text">Система “Intellect”, учет уровня доступов</div>
+                </div>
+                <div class="pluss__item pluss__item_three">
+                    <div class="pluss__text">Возможность использовать из любой точки мира с любого устройства</div>
+                </div>
+                <div class="pluss__item pluss__item_four">
+                    <div class="pluss__text">Нет необходимости установки и стационарной работы программиста</div>
+                </div>
+                <div class="pluss__item pluss__item_five">
+                    <div class="pluss__text">“Живые” бизнес-процессы</div>
+                </div>
+                <div class="pluss__item pluss__item_six">
+                    <div class="pluss__text">Никаких предоплат, оплата после старта</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="options">
+        <div class="options__wrapper">
+            <h2 class="title options__title">Варианты развертывания Ваших данных</h2>
+            <div class="options__cloud">
+                <div class="options__text">
+                    <h2 class="title options_title">Облачное хранилище</h2>
+                    <p class="options__cloud_descr">Это выделенное пользователю пространство на жестком диске сервера, находящегося в Интернете</p>
+                </div>
+            </div>
+            <div class="options__server">
+                <div class="options__text options__text_right">
+                    <h2 class="title options_title">Размещение на сервере</h2>
+                    <p class="options__server_descr">Услуга аренды пространства в центре обработки данных (колокация серверов) предназначена для клиентов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start">
+        <div class="container">
+            <img src="icons/tap.webp" alt="tap" class="start__img">
+            <h2 class="title start__title">Приступить очень просто! <br> Нужно получить доступ и начать работу!</h2>
+            <button class="btn start__btn">связаться с нами</button>
+        </div>
+    </section>
+
+    <footer class="footer" id="us">
+        <div class="container">
+            <div class="footer__text">
+                <div class="footer__company">
+                    <h3 class="footer__title">О компании</h3>
+                    <img src="img/logo-company.png" alt="" class="footer__img">
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.Управление задачами</p>
+                </div>
+                <div class="footer__modules">
+                    <h3 class="footer__title">Модули</h3>
+                    <ul class="footer__text_li footer__text_li-big">
+                        <li><a href="#">Обслуживание</a></li>
+                        <li><a href="#">Паспорт объекта</a></li>
+                        <li><a href="#">Автоматизация бизнес процессов (BPM) </a></li>
+                        <li><a href="#">Проектное управление (РРМ)</a></li>
+                        <li><a href="#">Управление подрядчиками</a></li>
+                        <li><a href="#">Персональный дашборд</a></li>
+                        <li><a href="#">Управление задачами</a></li>
+                        <li><a href="#">Управление алгоритмами</a></li>
+                        <li><a href="#">Управление качеством</a></li>
+                        <li><a href="#">Склад</a></li>
+                        <li><a href="#">Service desk</a></li>
+                        <li><a href="#">Календарь</a></li>
+                        <li><a href="#">Prengi market</a></li>
+                    </ul>
+                </div>
+                <div class="footer__branch">
+                    <h3 class="footer__title">Отрасли</h3>
+                    <ul class="footer__text_li">
+                        <li><a href="#">Промышленность</a></li>
+                        <li><a href="#">Ритейл</a></li>
+                        <li><a href="#">Фасилити</a></li>
+                        <li><a href="#">Логистика</a></li>
+                        <li><a href="#">ITHR</a></li>
+                    </ul>
+                </div>
+                <div class="footer__about">
+                    <h3 class="footer__title">О нас</h3>
+                    <ul class="footer__text_li">
+                        <li><a href="#">История</a></li>
+                        <li><a href="#">Наши отношения</a></li>
+                        <li><a href="#">Команда</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer__line"></span>
+            <p class="footer__law">© Prengi Ink. 2008-2017 Все права защищены.</p>
+        </div>
+        
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

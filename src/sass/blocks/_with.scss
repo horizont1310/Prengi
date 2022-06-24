@@ -1,0 +1,48 @@
+.with {
+    min-height: 738px;
+    margin-top: 70px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 362px);
+        grid-template-rows: 257px 225px 257px;
+        column-gap: 30px;        
+    }
+    &__item {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background: url('../icons/question-sign.webp') no-repeat 100%/cover;
+        img {
+            justify-self: center;
+            width: 145px;
+        }
+        &_plus {
+            background: url('../icons/check-mark.webp') no-repeat 100%/cover;
+        }
+    }
+    &__descr {
+        width: 294px;
+        color: $text-color-light;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        &_plus {
+            font-weight: 700;
+        }
+    }
+    &__center {
+        display: grid;
+        grid-column: 1 / 4;
+        grid-template-rows: 90px 45px;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        &_title {
+            color: $text-color-light;
+            font-weight: 700;
+            font-size: 47px;
+            line-height: 30px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.expert {
+    min-height: 890px;
+    margin-top: 80px;
+    background: url('../img/bg/woman.webp') no-repeat 50%/cover;
+    &__wrapper {
+        padding: 73px 0 40px 0;
+    }
+    &__title {
+        width: 648px;
+        text-align: center;
+    }
+    &__nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 23px;
+    }
+    &__tabs {        
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        width: 843px; 
+        height: 65px;
+        border: 1px solid $white-color;
+        border-radius: 5px;      
+    }
+    &__tab {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: $white-color;        
+        a {
+            text-decoration: none;
+            color: $white-color;
+            &:hover {
+                cursor: pointer;
+                color: $blue-color;
+            } 
+        }     
+        &_active {
+            color: $blue-color;
+        }
+        &_before {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70%;
+            border-left: 1px solid rgba(255, 255, 255, 0.5);
+            padding-left: 25px;
+        }
+    }
+    .tns-item {
+        .tns-slide-active {
+            display: flex;
+        }
+    }
+    
+}

@@ -1,0 +1,26 @@
+.start {
+    min-height: 537px;
+    margin: 75px 0;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: grid;
+        grid-template-columns: 615px;
+        grid-template-rows: 367px 73px 60px;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 28px;
+    }
+
+    &__img {
+       width: 302px;
+       height: 302px; 
+    }
+    &__title {
+        color: $main-color;
+        text-align: center;
+    }
+    &__btn {
+        text-transform: uppercase;
+    }
+}
