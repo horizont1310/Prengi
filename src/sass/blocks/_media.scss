@@ -43,8 +43,11 @@
                 object-fit: contain;
             }
         }
-        button {
+        .prev, .next {
             display: none;
+        }
+        .tns-nav {
+            display: flex;
         }
     }
     .pluss {
@@ -193,9 +196,6 @@
     }
     .expert {
         min-height: 100%;
-        .container {
-            padding-bottom: 20px;
-        }
         &__wrapper  {
             display: block;
             margin: 0 auto;

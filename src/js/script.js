@@ -9,7 +9,7 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     controls: false,
-    nav: false,
+    nav: true,
     navPosition: "bottom"
     
   });
